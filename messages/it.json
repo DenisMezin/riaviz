@@ -1,0 +1,80 @@
+{
+    "header": {
+        "home": "HOME",
+        "services": "SERVIZI",
+        "whoWeAre": "CHI SIAMO",
+        "results": "RISULTATI",
+        "contact": "CONTATTI"
+    },
+    "hero": {
+        "title1": "PREPARAZIONI",
+        "title2": "MOTORSPORT",
+        "title3": "E",
+        "title4": "PERFORMANCE",
+        "title5": "AVANZATA",
+        "subtitle": "Elettronica - Preparazione Motori - Ottimizzazione Software",
+        "cta": "CONTATTACI ORA"
+    },
+    "chiSiamo": {
+        "headingElettron": "elettronica",
+        "headingMotori": "motori da corsa",
+        "title": "Chi Siamo",
+        "text1": "La nostra passione per le auto da competizione ci spinge a offrire soluzioni avanzate per auto stradali e da corsa, tra cui rally, cronoscalate e molto altro.",
+        "text2": "Il nostro team di esperti è dedicato a fornire un servizio completo che copre dalla manutenzione generale e riparazioni meccaniche complesse, fino all'ottimizzazione elettronica personalizzata."
+    },
+    "services": {
+        "heading1": "Officina specializzata in",
+        "heading2": "elettronica",
+        "heading3": "e",
+        "heading4": "motori da corsa",
+        "clickInfo": "Clicca sui singoli Box per visualizzare i dettagli dei Servizi",
+        "maintenance": {
+            "title": "Manutenzione e Riparazioni Meccaniche",
+            "description": "Il nostro servizio di General Service and Maintenance presso Mechanical Workshop è progettato per garantire che il tuo veicolo funzioni sempre al massimo delle sue prestazioni. Offriamo una gamma completa di servizi di manutenzione di routine per assicurare che ogni componente del tuo veicolo sia in perfette condizioni."
+        },
+        "software": {
+            "title": "Ottimizzazione Software Veicoli",
+            "description": "Il nostro servizio di ottimizzazioni file utilizza software avanzati per offrire soluzioni efficaci ai problemi legati ai sistemi AdBlue, EGR e DPF. Grazie alla nostra esperienza, possiamo risolvere le complicazioni relative al filtro dei gas di scarico, migliorando le prestazioni del veicolo e prolungando la durata dei componenti."
+        },
+        "keys": {
+            "title": "Taglio e Programmazione Chiavi Auto",
+            "description": "Il servizio del Car Key Department presso la nostra officina meccanica offre una soluzione completa e professionale per tutte le esigenze legate alle chiavi dell'auto. Siamo specializzati nella lavorazione delle chiavi, partendo dall'intaglio della lama fino alla programmazione avanzata sul veicolo."
+        },
+        "dyno": {
+            "title": "Banco Prova Motori 4x4",
+            "description": "Il nostro servizio di car dynamometer offre un'ottimizzazione dettagliata del funzionamento del motore del tuo veicolo. Utilizziamo un banco prova frenato e sincronizzato 4x4 all'avanguardia, progettato per testare e analizzare le prestazioni del motore in condizioni controllate."
+        }
+    },
+    "method": {
+        "title1": "IL METODO",
+        "title2": "RIAVIZ",
+        "step1": "ANALISI",
+        "step2": "SVILUPPO",
+        "step3": "TESTING",
+        "step4": "CONSEGNA"
+    },
+    "instagram": {
+        "title1": "SEGUICI SU",
+        "title2": "INSTAGRAM"
+    },
+    "contact": {
+        "title1": "DOVE",
+        "title2": "TROVARCI",
+        "subtitle": "Vieni a trovarci in officina per discutere del tuo prossimo progetto o per una consulenza tecnica.",
+        "address": "Indirizzo",
+        "phone": "Telefono",
+        "hours": "Orari",
+        "monday": "Lunedì",
+        "tuesday": "Martedì",
+        "wednesday": "Mercoledì",
+        "thursday": "Giovedì",
+        "friday": "Venerdì",
+        "saturday": "Sabato",
+        "sunday": "Domenica",
+        "closed": "Chiuso"
+    },
+    "footer": {
+        "description": "Preparazioni e soluzioni avanzate per auto da corsa e da strada.",
+        "rights": "Tutti i diritti riservati."
+    }
+}

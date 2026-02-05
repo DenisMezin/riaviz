@@ -1,0 +1,80 @@
+{
+    "header": {
+        "home": "DOMOV",
+        "services": "STORITVE",
+        "whoWeAre": "KDO SMO",
+        "results": "REZULTATI",
+        "contact": "KONTAKT"
+    },
+    "hero": {
+        "title1": "PRIPRAVE",
+        "title2": "MOTORSPORT",
+        "title3": "IN",
+        "title4": "NAPREDNA",
+        "title5": "ZMOGLJIVOST",
+        "subtitle": "Elektronika - Priprava Motorjev - Optimizacija Programske Opreme",
+        "cta": "KONTAKTIRAJTE NAS ZDAJ"
+    },
+    "chiSiamo": {
+        "headingElettron": "elektronika",
+        "headingMotori": "dirkalni motorji",
+        "title": "Kdo Smo",
+        "text1": "Naša strast do dirkalnih avtomobilov nas žene k ponudbi naprednih rešitev za cestne in dirkalne avtomobile, vključno z reliji, gorskimi dirkami in še več.",
+        "text2": "Naša ekipa strokovnjakov je predana zagotavljanju popolne storitve, ki zajema splošno vzdrževanje in kompleksna mehanična popravila do personalizirane elektronske optimizacije."
+    },
+    "services": {
+        "heading1": "Delavnica specializirana za",
+        "heading2": "elektroniko",
+        "heading3": "in",
+        "heading4": "dirkalne motorje",
+        "clickInfo": "Kliknite na posamezne škatlice za podrobnosti storitev",
+        "maintenance": {
+            "title": "Vzdrževanje in Mehanska Popravila",
+            "description": "Naša storitev splošnega servisa in vzdrževanja v mehanski delavnici je zasnovana tako, da zagotavlja, da vaše vozilo vedno deluje z najboljšo zmogljivostjo. Ponujamo popoln nabor rutinskih vzdrževalnih storitev, da zagotovimo, da je vsaka komponenta vašega vozila v popolnem stanju."
+        },
+        "software": {
+            "title": "Optimizacija Programske Opreme Vozil",
+            "description": "Naša storitev optimizacije datotek uporablja napredno programsko opremo za učinkovite rešitve problemov, povezanih s sistemi AdBlue, EGR in DPF. Zahvaljujoč naši izkušnji lahko rešimo zaplete, povezane s filtrom izpušnih plinov, izboljšamo zmogljivost vozila in podaljšamo življenjsko dobo komponent."
+        },
+        "keys": {
+            "title": "Rezanje in Programiranje Avtomobilskih Ključev",
+            "description": "Storitev oddelka za avtomobilske ključe v naši mehanski delavnici ponuja popolno in profesionalno rešitev za vse potrebe, povezane s ključi avtomobila. Specializirani smo za obdelavo ključev, od rezanja rezila do naprednega programiranja na vozilu."
+        },
+        "dyno": {
+            "title": "Preizkusna Klop za Motorje 4x4",
+            "description": "Naša storitev avtomobilskega dinamometra ponuja podrobno optimizacijo delovanja motorja vašega vozila. Uporabljamo najsodobnejšo zavorno in sinhronizirano preizkusno klop 4x4, zasnovano za testiranje in analizo zmogljivosti motorja v nadzorovanih pogojih."
+        }
+    },
+    "method": {
+        "title1": "METODA",
+        "title2": "RIAVIZ",
+        "step1": "ANALIZA",
+        "step2": "RAZVOJ",
+        "step3": "TESTIRANJE",
+        "step4": "DOSTAVA"
+    },
+    "instagram": {
+        "title1": "SLEDITE NAM NA",
+        "title2": "INSTAGRAM"
+    },
+    "contact": {
+        "title1": "KJE NAS",
+        "title2": "NAJDETE",
+        "subtitle": "Obiščite nas v delavnici, da razpravljamo o vašem naslednjem projektu ali za tehnično posvetovanje.",
+        "address": "Naslov",
+        "phone": "Telefon",
+        "hours": "Urnik",
+        "monday": "Ponedeljek",
+        "tuesday": "Torek",
+        "wednesday": "Sreda",
+        "thursday": "Četrtek",
+        "friday": "Petek",
+        "saturday": "Sobota",
+        "sunday": "Nedelja",
+        "closed": "Zaprto"
+    },
+    "footer": {
+        "description": "Priprave in napredne rešitve za dirkalne in cestne avtomobile.",
+        "rights": "Vse pravice pridržane."
+    }
+}

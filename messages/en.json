@@ -1,0 +1,80 @@
+{
+    "header": {
+        "home": "HOME",
+        "services": "SERVICES",
+        "whoWeAre": "WHO WE ARE",
+        "results": "RESULTS",
+        "contact": "CONTACT"
+    },
+    "hero": {
+        "title1": "MOTORSPORT",
+        "title2": "PREPARATIONS",
+        "title3": "AND",
+        "title4": "ADVANCED",
+        "title5": "PERFORMANCE",
+        "subtitle": "Electronics - Engine Preparation - Software Optimization",
+        "cta": "CONTACT US NOW"
+    },
+    "chiSiamo": {
+        "headingElettron": "electronics",
+        "headingMotori": "racing engines",
+        "title": "Who We Are",
+        "text1": "Our passion for competition cars drives us to offer advanced solutions for road and racing cars, including rally, hill climb and much more.",
+        "text2": "Our team of experts is dedicated to providing a complete service that ranges from general maintenance and complex mechanical repairs to personalized electronic optimization."
+    },
+    "services": {
+        "heading1": "Workshop specialized in",
+        "heading2": "electronics",
+        "heading3": "and",
+        "heading4": "racing engines",
+        "clickInfo": "Click on individual boxes to view Service details",
+        "maintenance": {
+            "title": "Maintenance and Mechanical Repairs",
+            "description": "Our General Service and Maintenance service at Mechanical Workshop is designed to ensure your vehicle always performs at its best. We offer a complete range of routine maintenance services to ensure every component of your vehicle is in perfect condition."
+        },
+        "software": {
+            "title": "Vehicle Software Optimization",
+            "description": "Our file optimization service uses advanced software to offer effective solutions to problems related to AdBlue, EGR and DPF systems. Thanks to our experience, we can solve complications related to the exhaust gas filter, improving vehicle performance and extending component life."
+        },
+        "keys": {
+            "title": "Car Key Cutting and Programming",
+            "description": "The Car Key Department service at our mechanical workshop offers a complete and professional solution for all car key needs. We specialize in key processing, from blade cutting to advanced programming on the vehicle."
+        },
+        "dyno": {
+            "title": "4x4 Engine Dyno",
+            "description": "Our car dynamometer service offers detailed optimization of your vehicle's engine performance. We use state-of-the-art braked and synchronized 4x4 dyno, designed to test and analyze engine performance under controlled conditions."
+        }
+    },
+    "method": {
+        "title1": "THE METHOD",
+        "title2": "RIAVIZ",
+        "step1": "ANALYSIS",
+        "step2": "DEVELOPMENT",
+        "step3": "TESTING",
+        "step4": "DELIVERY"
+    },
+    "instagram": {
+        "title1": "FOLLOW US ON",
+        "title2": "INSTAGRAM"
+    },
+    "contact": {
+        "title1": "WHERE TO",
+        "title2": "FIND US",
+        "subtitle": "Come visit us at the workshop to discuss your next project or for a technical consultation.",
+        "address": "Address",
+        "phone": "Phone",
+        "hours": "Hours",
+        "monday": "Monday",
+        "tuesday": "Tuesday",
+        "wednesday": "Wednesday",
+        "thursday": "Thursday",
+        "friday": "Friday",
+        "saturday": "Saturday",
+        "sunday": "Sunday",
+        "closed": "Closed"
+    },
+    "footer": {
+        "description": "Preparations and advanced solutions for racing and road cars.",
+        "rights": "All rights reserved."
+    }
+}
