@@ -1,8 +1,21 @@
+"use client";
+
 import Link from "next/link";
 import Image from "next/image";
 import { Facebook, Instagram, Linkedin } from "lucide-react";
+import { useLocale } from '@/contexts/LocaleContext';
 
 export function Footer() {
+    const { messages } = useLocale();
+    const t = (key: string) => {
+        const keys = key.split('.');
+        let value: any = messages;
+        for (const k of keys) {
+            value = value?.[k];
+        }
+        return value || key;
+    };
+
     return (
         <footer id="contact" className="bg-charcoal border-t border-white/10 pt-16 pb-8">
             <div className="container mx-auto px-4 max-w-[1320px]">
@@ -29,9 +42,11 @@ export function Footer() {
                     <div>
                         <h4 className="text-white font-bold mb-6">MENU</h4>
                         <ul className="space-y-4">
-                            <li><Link href="/" className="text-light-grey hover:text-neon transition-colors text-sm">Home</Link></li>
-                            <li><Link href="#chi-siamo" className="text-light-grey hover:text-neon transition-colors text-sm">Chi Siamo</Link></li>
-                            <li><Link href="#servizi" className="text-light-grey hover:text-neon transition-colors text-sm">Servizi</Link></li>
+                            <li><Link href="#hero" className="text-light-grey hover:text-neon transition-colors text-sm">{t('header.home')}</Link></li>
+                            <li><Link href="#chi-siamo" className="text-light-grey hover:text-neon transition-colors text-sm">{t('header.whoWeAre')}</Link></li>
+                            <li><Link href="#servizi" className="text-light-grey hover:text-neon transition-colors text-sm">{t('header.services')}</Link></li>
+                            <li><Link href="#metodo" className="text-light-grey hover:text-neon transition-colors text-sm">{t('header.results')}</Link></li>
+                            <li><Link href="#contact" className="text-light-grey hover:text-neon transition-colors text-sm">{t('header.contact')}</Link></li>
                         </ul>
                     </div>
 
@@ -39,9 +54,10 @@ export function Footer() {
                     <div>
                         <h4 className="text-white font-bold mb-6">SERVIZI</h4>
                         <ul className="space-y-4">
-                            <li><Link href="#" className="text-light-grey hover:text-neon transition-colors text-sm">Restomod</Link></li>
-                            <li><Link href="#" className="text-light-grey hover:text-neon transition-colors text-sm">Nanotecnologia</Link></li>
-                            <li><Link href="#" className="text-light-grey hover:text-neon transition-colors text-sm">Mapping</Link></li>
+                            <li><Link href="#servizi" className="text-light-grey hover:text-neon transition-colors text-sm">Manutenzione</Link></li>
+                            <li><Link href="#servizi" className="text-light-grey hover:text-neon transition-colors text-sm">Software</Link></li>
+                            <li><Link href="#servizi" className="text-light-grey hover:text-neon transition-colors text-sm">Chiavi</Link></li>
+                            <li><Link href="#servizi" className="text-light-grey hover:text-neon transition-colors text-sm">Banco Prova</Link></li>
                         </ul>
                     </div>
 
@@ -49,7 +65,7 @@ export function Footer() {
                     <div>
                         <h4 className="text-white font-bold mb-6">SOCIAL</h4>
                         <div className="flex gap-4">
-                            <Link href="#" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-neon hover:text-black transition-all">
+                            <Link href="https://www.instagram.com/riaviz_motorsport" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-neon hover:text-black transition-all">
                                 <Instagram size={20} />
                             </Link>
                             <Link href="#" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-neon hover:text-black transition-all">
