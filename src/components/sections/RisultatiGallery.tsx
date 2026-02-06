@@ -62,8 +62,11 @@ export function RisultatiGallery() {
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true }}
                             transition={{ delay: index * 0.05 }}
-                            className={`${image.gridSpan} relative group cursor-pointer overflow-hidden rounded-xl border border-white/10 hover:border-neon/50 transition-all duration-300`}
-                            style={{ aspectRatio: image.aspectRatio }}
+                            className={`${image.gridSpan} aspect-square lg:!aspect-[var(--aspect)] relative group cursor-pointer overflow-hidden rounded-xl border border-white/10 hover:border-neon/50 transition-all duration-300`}
+                            style={{
+                                // @ts-ignore
+                                "--aspect": image.aspectRatio
+                            }}
                             onClick={() => setSelectedImage(image.src)}
                         >
                             {/* Image with lazy loading */}
