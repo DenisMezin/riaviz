@@ -45,6 +45,11 @@
             "description": "Naša storitev avtomobilskega dinamometra ponuja podrobno optimizacijo delovanja motorja vašega vozila. Uporabljamo najsodobnejšo zavorno in sinhronizirano preizkusno klop 4x4, zasnovano za testiranje in analizo zmogljivosti motorja v nadzorovanih pogojih."
         }
     },
+    "risultati": {
+        "title1": "NAŠI",
+        "title2": "REZULTATI",
+        "subtitle": "Izbor naših najnovejših del"
+    },
     "method": {
         "title1": "METODA",
         "title2": "RIAVIZ",

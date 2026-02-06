@@ -3,6 +3,7 @@ import { Footer } from "@/components/layout/Footer";
 import { Hero } from "@/components/sections/Hero";
 import { ChiSiamo } from "@/components/sections/ChiSiamo";
 import { ServicesPreview } from "@/components/sections/ServicesPreview";
+import { RisultatiGallery } from "@/components/sections/RisultatiGallery";
 import { MethodRiaviz } from "@/components/sections/MethodRiaviz";
 import { ContactSection } from "@/components/sections/ContactSection";
 import { InstagramFeed } from "@/components/sections/InstagramFeed";
@@ -18,6 +19,8 @@ export default function Home() {
                 <ChiSiamo />
                 <LightDelimiter />
                 <ServicesPreview />
+                <LightDelimiter />
+                <RisultatiGallery />
                 <LightDelimiter />
                 <MethodRiaviz />
                 <LightDelimiter />

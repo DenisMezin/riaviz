@@ -68,12 +68,10 @@ export function Footer() {
                             <Link href="https://www.instagram.com/riaviz_motorsport" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-neon hover:text-black transition-all">
                                 <Instagram size={20} />
                             </Link>
-                            <Link href="#" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-neon hover:text-black transition-all">
+                            <Link href="https://www.facebook.com/profile.php?id=61581759428197#" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-neon hover:text-black transition-all">
                                 <Facebook size={20} />
                             </Link>
-                            <Link href="#" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-neon hover:text-black transition-all">
-                                <Linkedin size={20} />
-                            </Link>
+
                         </div>
                     </div>
                 </div>

@@ -45,6 +45,11 @@
             "description": "Il nostro servizio di car dynamometer offre un'ottimizzazione dettagliata del funzionamento del motore del tuo veicolo. Utilizziamo un banco prova frenato e sincronizzato 4x4 all'avanguardia, progettato per testare e analizzare le prestazioni del motore in condizioni controllate."
         }
     },
+    "risultati": {
+        "title1": "I NOSTRI",
+        "title2": "RISULTATI",
+        "subtitle": "Una selezione dei nostri lavori più recenti"
+    },
     "method": {
         "title1": "IL METODO",
         "title2": "RIAVIZ",

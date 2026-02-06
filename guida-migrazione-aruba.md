@@ -1,7 +1,7 @@
 # Guida alla Migrazione da Vercel ad Aruba Hosting
 
 Questa guida ti accompagnerà passo dopo passo nella migrazione del sito RIAVIZ Motorsport da Vercel (dove verrà deployato per la review del cliente) al hosting Aruba.
-
+- youtube:  https://www.youtube.com/results?search_query=next+js+to+aruba+hosting
 ---
 
 ## 📋 Prerequisiti
@@ -16,7 +16,8 @@ Prima di iniziare, assicurati di avere:
 
 ## ⚠️ IMPORTANTE: Static Export Configuration
 
-Next.js di default genera un'applicazione dinamica che richiede un server Node.js. Aruba hosting standard supporta solo **hosting statico** (HTML/CSS/JS). Dobbiamo configurare Next.js per generare un **export statico**.
+Next.js di default genera un'applicazione dinamica che richiede un server Node.js. 
+Aruba hosting standard supporta solo **hosting statico** (HTML/CSS/JS). Dobbiamo configurare Next.js per generare un **export statico**.
 
 ---
 

@@ -99,17 +99,12 @@ export function ServicesPreview() {
                                 <motion.div
                                     initial={{ opacity: 0, x: -10 }}
                                     animate={{ opacity: 1, x: 0 }}
-                                    className="md:hidden flex gap-4 p-4 bg-[#141414] border border-white/10 rounded-xl shadow-lg relative z-10"
+                                    className="md:hidden flex flex-col p-6 bg-[#141414] border border-white/10 rounded-xl shadow-lg relative z-10"
                                 >
-                                    {/* Left: Diminished Card (Image) */}
-                                    <div className="w-32 h-32 flex-shrink-0 relative rounded-lg overflow-hidden border border-neon/30">
-                                        <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: `url(${service.image})` }} />
-                                    </div>
-
-                                    {/* Right: Description */}
-                                    <div className="flex-1 flex flex-col justify-center">
-                                        <h3 className="text-neon font-bold uppercase text-base mb-3 leading-tight tracking-wider">{service.title}</h3>
-                                        <p className="text-[#D1D1D1] text-sm leading-relaxed">{service.description}</p>
+                                    {/* Full Width Description */}
+                                    <div className="flex flex-col justify-center">
+                                        <h3 className="text-neon font-bold uppercase text-lg mb-4 leading-tight tracking-wider">{service.title}</h3>
+                                        <p className="text-[#D1D1D1] text-base leading-relaxed">{service.description}</p>
                                     </div>
                                 </motion.div>
                             )}

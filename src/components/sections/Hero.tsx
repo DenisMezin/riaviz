@@ -2,53 +2,68 @@
 
 import { motion, AnimatePresence } from "framer-motion";
 import Link from "next/link";
-import Image from "next/image";
 import { useState, useEffect } from "react";
 import { useLocale } from '@/contexts/LocaleContext';
 
 const HERO_IMAGES = [
-    "/hero_gallery/gallery1.png",
-    "/hero_gallery/gallery2.png",
-    "/hero_gallery/gallery3.png",
-    "/hero_gallery/gallery4.png",
-    "/hero_gallery/gallery5.png",
-    "/hero_gallery/gallery6.png",
+    "/hero_gallery/gallery1.webp",
+    "/hero_gallery/gallery2.webp",
+    "/hero_gallery/gallery3.webp",
+    "/hero_gallery/gallery4.webp",
+    "/hero_gallery/gallery5.webp",
+    "/hero_gallery/gallery6.webp",
 ];
 
 export function Hero() {
     const { messages } = useLocale();
     const t = (key: string) => (messages.hero as any)[key];
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
+    const [imagesLoaded, setImagesLoaded] = useState(false);
+
+    // Preload images
+    useEffect(() => {
+        let loadedCount = 0;
+        const totalImages = HERO_IMAGES.length;
+
+        HERO_IMAGES.forEach((src) => {
+            const img = new window.Image();
+            img.onload = () => {
+                loadedCount++;
+                if (loadedCount === totalImages) {
+                    setImagesLoaded(true);
+                }
+            };
+            img.src = src;
+        });
+    }, []);
 
     useEffect(() => {
+        if (!imagesLoaded) return;
+
         const interval = setInterval(() => {
             setCurrentImageIndex((prev) => (prev + 1) % HERO_IMAGES.length);
         }, 4000);
         return () => clearInterval(interval);
-    }, []);
+    }, [imagesLoaded]);
 
     return (
         <section id="home" className="relative h-screen min-h-[600px] w-full overflow-hidden flex items-center">
             {/* Background Gallery Loop */}
             <div className="absolute inset-0 z-0 bg-black">
-                <AnimatePresence mode="popLayout">
+                <AnimatePresence mode="wait">
                     <motion.div
                         key={currentImageIndex}
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 0.6 }} // Slight opacity for text readability
                         exit={{ opacity: 0 }}
-                        transition={{ duration: 1 }}
+                        transition={{ duration: 0.7, ease: "easeInOut" }}
                         className="absolute inset-0"
-                    >
-                        <Image
-                            src={HERO_IMAGES[currentImageIndex]}
-                            alt="Riaviz Motorsport Hero"
-                            fill
-                            priority={currentImageIndex === 0}
-                            className="object-cover object-center"
-                            unoptimized={true}
-                        />
-                    </motion.div>
+                        style={{
+                            backgroundImage: `url(${HERO_IMAGES[currentImageIndex]})`,
+                            backgroundSize: 'cover',
+                            backgroundPosition: 'center'
+                        }}
+                    />
                 </AnimatePresence>
                 {/* Overlay gradient */}
                 <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-transparent to-black/90 z-10" />

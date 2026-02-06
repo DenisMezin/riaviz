@@ -1,7 +1,6 @@
 "use client";
 
 import { motion } from "framer-motion";
-import Image from "next/image";
 import Link from "next/link";
 import { Instagram, ExternalLink } from "lucide-react";
 import { useLocale } from '@/contexts/LocaleContext';
@@ -12,7 +11,7 @@ const INSTAGRAM_POSTS = [
     { id: 3, image: "/images/post3.jpeg", link: "https://www.instagram.com/riaviz_motorsport/" },
     { id: 4, image: "/images/post4.jpeg", link: "https://www.instagram.com/riaviz_motorsport/" },
     { id: 5, image: "/images/post5.jpeg", link: "https://www.instagram.com/riaviz_motorsport/" },
-    { id: 6, image: "/images/post6.png", link: "https://www.instagram.com/riaviz_motorsport/" },
+    { id: 6, image: "/images/post6.webp", link: "https://www.instagram.com/riaviz_motorsport/" },
 ];
 
 export function InstagramFeed() {
@@ -50,12 +49,11 @@ export function InstagramFeed() {
                             className="relative aspect-square group overflow-hidden rounded-xl border border-white/10"
                         >
                             <Link href={post.link} target="_blank" className="block w-full h-full">
-                                <Image
+                                <img
                                     src={post.image}
                                     alt="Instagram Post"
-                                    fill
-                                    className="object-cover transition-transform duration-500 group-hover:scale-110"
-                                    unoptimized
+                                    loading="lazy"
+                                    className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                                 />
                                 {/* Overlay */}
                                 <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
