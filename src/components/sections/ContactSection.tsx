@@ -75,8 +75,8 @@ export function ContactSection() {
                             <div>
                                 <h3 className="text-xl font-bold uppercase mb-2 tracking-wide">Email</h3>
                                 <p className="text-[#D1D1D1] leading-relaxed text-lg">
-                                    <a href="mailto:info@riaviz-motorsport.com" className="hover:text-neon transition-colors">
-                                        info@riaviz-motorsport.com
+                                    <a href="mailto:riavizluca@gmail.com" className="hover:text-neon transition-colors">
+                                        riavizluca@gmail.com
                                     </a>
                                 </p>
                             </div>

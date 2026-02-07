@@ -33,7 +33,7 @@ export function Footer() {
                         </Link>
                         <p className="text-light-grey text-sm leading-relaxed">
                             Opatje selo 43, 5291 Miren, Slovenia<br />
-                            info@riaviz-motorsport.com<br />
+                            riavizluca@gmail.com<br />
                             +39 393 406 2502
                         </p>
                     </div>

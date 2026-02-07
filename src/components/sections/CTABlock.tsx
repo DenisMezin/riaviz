@@ -50,7 +50,7 @@ export function CTABlock() {
                     </span>
                     <span className="hidden md:inline text-white/20">|</span>
                     <span className="flex items-center gap-2 hover:text-white transition-colors cursor-pointer">
-                        <Mail className="w-4 h-4 text-neon" /> info@riavizmotorsport.com
+                        <Mail className="w-4 h-4 text-neon" /> riavizluca@gmail.com
                     </span>
                 </motion.div>
             </div>
